@@ -205,7 +205,7 @@ void question16(){
 int main() {
     int choice;
 
-    cout << "===== PROJECT MENU =====" << endl;
+    cout << "PROJECT MENU " << endl;
     cout << "1. Question 1" << endl;
     cout << "2. Question 2" << endl;
     cout << "3. Question 3" << endl;
@@ -275,8 +275,9 @@ int main() {
             break;    
             
         default:
-            cout << "Invalid choice! Please enter between 1 and 15.";
+            cout << "Incorrect Please enter between 1 and 15.";
     }
 
     return 0;
 }
+
